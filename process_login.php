@@ -62,4 +62,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } catch (PDOException $e) {
         echo "<div class='container mt-5'><div class='alert alert-danger text-center'>Database error: " . $e->getMessage() . "</div></div>";
     }
+
 }
